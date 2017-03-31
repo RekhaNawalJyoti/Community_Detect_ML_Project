@@ -78,6 +78,7 @@ while(change_noc>0):
                     communities[i].remove(j)  
    communities = [x for x in communities if x != []];
    change_noc=noc-len(communities);
+   print(communities)
                  
             
                  
